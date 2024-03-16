@@ -1,0 +1,174 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+/*.btn{
+background-color: rgb(55, 105, 105);
+}
+.main-content{
+  display: flex;
+  justify-content: space-around;
+
+}
+.main-header {
+  background-color: rgb(5, 5, 5);
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1em;
+  padding: .75em 1.5em;
+}
+.main-header ul{
+  display: flex;
+  list-style: none;
+  gap: 1em;
+}
+.left-menu {
+  background-color: red;
+  height: 100%;
+  width: 0.1dvh;
+  padding: 100px;
+  position: fixed;
+left: 0;
+top: 0;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+color: white;
+}
+
+.top-right {
+  background-color: rgb(30, 30, 216);
+  display: flex;
+  color: white;
+  flex-direction: column-reverse;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 100px;
+  height: 40%;
+  width: 100px;
+  
+}
+.below-right {
+  background-color: orangered;
+  display: flex;
+  color: white;
+  flex-direction: column-reverse;
+  justify-content: center;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding: 100px;
+  height: 30%;
+  width: 100px;
+ 
+}*/
+.todo{
+  border: 2px solid;
+  border-radius:  10px;
+  padding: 100px; 
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.TodoList {
+
+border-radius: 30px;
+border-width: 2px;
+}
+
+.add-button{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.add-button:hover{
+  background-color: rgb(64, 167, 64);
+  transition: background-color 0.2s ease-in;
+}
+.add-button :active{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.delete{
+  background-color: black;
+  padding: 10px;
+  color: white;
+  margin-left:160px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+}
+.delete:hover {
+  background-color: red;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+.todotable{
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
